@@ -67,7 +67,7 @@ describe('index.js', function () {
         expect(removeLastCat()).to.have.ordered.members(["Milo", "Otis"]);
 
         expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-      });
+      })
     });
 
     describe('removeFirstCat()', function () {
